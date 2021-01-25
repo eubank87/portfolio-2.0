@@ -15,12 +15,16 @@
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
+   padding-left: 10%;
+   padding-top: 10%;
+   padding-right: 5%;
 }
 
 h1{
     color: purple;
     font-family: 'Lobster', cursive;
     text-shadow: 3px 3px grey;
+    /* color: rgba(255, 255, 255, 0.808); */
 }
 
 p{
@@ -29,4 +33,12 @@ p{
 
 #photo{
     height: 350px;
+}
+
+#about-block{
+    height:360px;
+    width:60vw;
+    margin-left:3%;
+    background-color: rgba(255, 255, 255, 0.808);
+    font-size:36px
 }
