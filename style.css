@@ -15,9 +15,9 @@
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
-   padding-left: 10%;
+   /* padding-left: 10%; */
    padding-top: 10%;
-   padding-right: 5%;
+   /* padding-right: 5%; */
 }
 
 h1{
@@ -33,12 +33,23 @@ p{
 
 #photo{
     height: 350px;
+    margin-left: 20%;
 }
 
-#about-block{
-    height:360px;
-    width:70vw;
-    margin-left:3%;
-    background-color: rgba(255, 255, 255, 0.808);
-    font-size:36px
+#about-block, .port-block, #contact-block{
+    /* height:360px; */
+    width:100vw;
+    /* margin-left:3%; */
+    /* background-color: rgba(255, 255, 255, 0.808); */
+    font-size:36px;
+    background-color: white; 
+}
+
+#about-p{
+    margin-right: 20%;
+    margin-left: 10%;
+}
+
+.port-block{
+    padding-left: 10%;
 }
